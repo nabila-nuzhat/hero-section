@@ -31,7 +31,31 @@ body{
 
 .container{
     background-color: var(--dark-violet);
-    height: 80vh;
+    height: 70vh;
     width: 70%;
+    /* for 2 inner containers */
+    display: flex;
 }
+
+.text__container{
+    background-color: red;
+    height: 100%;
+    width: 50%;
+}
+
+.image__container{
+    background-color: green;
+    height: 100%;
+    width: 50%;
+}
+
+.image__container > img{
+    /* emmet shortcut h100p */
+    height: 100%; 
+    width: 100%;
+/* if the view of the image skews or squzees or streches */
+   object-fit: cover;
+    object-position: left;
+}
+
 
