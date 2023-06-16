@@ -2,6 +2,8 @@
 font-family: 'Lexend Deca', sans-serif; 
 Regular 400
 Bold 700*/
+
+/* variables */
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Lexend Deca', sans-serif;
@@ -11,3 +13,18 @@ Bold 700*/
     --white: #fff;
     --black: #000;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--darkest-violet);
+}
+
+.container{
+    background-color: var(--dark-violet);
+}
+
