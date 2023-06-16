@@ -1,0 +1,13 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; 
+Regular 400
+Bold 700*/
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Lexend Deca', sans-serif;
+    --darkest-violet: #1E1E1E;
+    --dark-violet: #1B1938;
+    --violet: #AA5CDB;
+    --white: #fff;
+    --black: #000;
+}
