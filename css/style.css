@@ -20,6 +20,7 @@ Bold 700*/
     padding: 0;
 }
 
+/* main body - the whole background styles */
 body{
     background-color: var(--darkest-violet);
     display: flex;
@@ -30,5 +31,7 @@ body{
 
 .container{
     background-color: var(--dark-violet);
+    height: 80vh;
+    width: 70%;
 }
 
