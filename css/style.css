@@ -80,6 +80,9 @@ p{
 .image__container{
     height: 100%;
     width: 50%;
+
+/* for image overlay positioning */
+    position: relative;
 }
 
 .image__container > img{
@@ -91,4 +94,12 @@ p{
     object-position: left;
 }
 
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(170, 92, 219, 0.25);
+ 
+/* relative to image__container parent div */
+    position: absolute;
+}
 
