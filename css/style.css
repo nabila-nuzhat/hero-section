@@ -36,6 +36,10 @@ body{
     /* for 2 inner containers */
     display: flex;
 }
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .text__container{
     color: var(--white);
@@ -47,8 +51,24 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.intro > h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .intro > h1 > span{
     color: var(--violet);
+}
+
+.stat {
+    display: flex;
+    gap: 30px;
+}
+
+.stat > h2{
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .image__container{
@@ -65,8 +85,4 @@ body{
     object-position: left;
 }
 
-.stat {
-    display: flex;
-    gap: 30px;
-}
 
