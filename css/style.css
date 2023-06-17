@@ -20,8 +20,8 @@ Bold 700*/
     padding: 0;
 }
 
-/* main body - the whole background styles */
-body{
+/* main container - the whole background styles */
+.container{
     background-color: var(--darkest-violet);
     display: flex;
     justify-content: center;
@@ -29,13 +29,18 @@ body{
     height: 100vh;
 }
 
-.container{
+.card{
     background-color: var(--dark-violet);
     height: 70vh;
     width: 75%;
+    border-radius: 20px;
+    overflow: hidden;
+    /* for properly showing the radius. as image was overflowing over border radius */
+
     /* for 2 inner containers */
     display: flex;
 }
+
 p{
     font-size: 16px;
     font-weight: 400;
