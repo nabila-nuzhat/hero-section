@@ -32,7 +32,7 @@ body{
 .container{
     background-color: var(--dark-violet);
     height: 70vh;
-    width: 70%;
+    width: 75%;
     /* for 2 inner containers */
     display: flex;
 }
@@ -41,6 +41,11 @@ body{
     color: var(--white);
     width: 50%;
     font-family: var(--primary-font);
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .image__container{
@@ -57,4 +62,8 @@ body{
     object-position: left;
 }
 
+.stat {
+    display: flex;
+    gap: 25px;
+}
 
