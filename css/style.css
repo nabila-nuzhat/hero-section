@@ -38,13 +38,12 @@ body{
 }
 
 .text__container{
-    background-color: red;
-    height: 100%;
+    color: var(--white);
     width: 50%;
+    font-family: var(--primary-font);
 }
 
 .image__container{
-    background-color: green;
     height: 100%;
     width: 50%;
 }
