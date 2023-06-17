@@ -71,6 +71,12 @@ p{
     font-size: 24px;
 }
 
+.text__container .stat p{
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+
+/* image container */
 .image__container{
     height: 100%;
     width: 50%;
