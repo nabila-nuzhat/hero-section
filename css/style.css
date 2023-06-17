@@ -97,9 +97,9 @@ p{
 .overlay{
     height: 100%;
     width: 100%;
-    background-color: rgba(170, 92, 219, 0.25);
+    background-color: var(--violet);
+    opacity: 0.25;
  
 /* relative to image__container parent div */
     position: absolute;
 }
-
