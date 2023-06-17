@@ -47,6 +47,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.intro > h1 > span{
+    color: var(--violet);
+}
 
 .image__container{
     height: 100%;
